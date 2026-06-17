@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎯 Number Game"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2563EB"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess a number between 1 and 100"
+        android:textSize="18sp"
+        android:textColor="#475569"
+        android:paddingBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/editGuess"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter your guess"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Check Guess"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#2563EB"/>
+
+    <TextView
+        android:id="@+id/txtAttempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempts: 0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Restart Game"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#22C55E"/>
+
+</LinearLayout>
